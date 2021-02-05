@@ -1,0 +1,38 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  background-color: #f7f7f7; }
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5em;
+  padding-left: 1.5625em; }
+
+.border-bottom {
+  border-bottom: 0.25em solid #5cb85c !important; }
+
+h2 {
+  font-weight: 500; }
+
+.vydej_leku {
+  font-size: 1.25em; }
+
+.kontakt a {
+  text-decoration: none;
+  color: #5cb85c; }
+  .kontakt a:hover, .kontakt a:focus {
+    color: #357935; }
+
+.card {
+  height: 11.25em;
+  text-align: center; }
+  .card h5 {
+    margin-bottom: 0.9375em; }
+
+.copy {
+  font-size: 0.625em; }
+
+footer {
+  background-color: #292b2c;
+  color: #f7f7f7;
+  border-top: 0.25em solid #5cb85c; }

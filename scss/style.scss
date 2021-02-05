@@ -1,0 +1,63 @@
+@import 'mixins';   //mixins
+@import 'variables'; //variables
+
+body {
+    font-family: $font-family-sans;
+    font-weight: 400;
+    background-color: $style-color;
+}
+
+.navbar-brand {
+    font: {
+        weight: 700;
+        size: em(24);
+    }
+
+    padding-left: em(25);
+}
+
+.border-bottom {
+    border-bottom: em(4) solid $secondary-color!important;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+.vydej_leku {
+    font-size: em(20);
+}
+
+.kontakt {
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+
+        &:hover,
+        &:focus {
+            color: darken($secondary-color, 20%);
+        }
+    }
+}
+
+.card {
+    height: em(180);
+    text-align: center;
+
+    h5 {
+        margin-bottom: em(15);
+    }
+}
+
+.copy {
+    font-size: em(10);
+}
+
+footer {
+    background-color: $primary-color;
+    color: $style-color;
+    border-top: em(4) solid $secondary-color;
+}
+
+
+
